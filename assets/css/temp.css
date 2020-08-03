@@ -1,0 +1,250 @@
+body {
+  background-color: black;
+  font-family: 'serif';
+  font-weight: 100;
+  /* color: #f0f0f0; */
+color: white;
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+a.info {
+    font-weight: 400;
+    color: black;
+    padding-bottom: 10px;
+    background: url(assets/images/slow_wave-03.svg);
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-repeat: repeat-x;
+    background-size: 120px 10px;
+    background-position: 6px 60px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+    animation-play-state: paused;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+        text-decoration: none !important;
+}
+a.info:hover {
+    animation-play-state: running;
+    color: black;
+    text-decoration: none !important;
+}
+
+a.info:active {
+    animation-play-state: running;
+    color: white;
+    background-color: black;
+    text-decoration: none !important;
+}
+
+
+@-webkit-keyframes move {
+    from {
+        background-position: 15px 15px;
+    }
+    to {
+        background-position: 4500px 15px;
+    }
+}
+
+disableAutoFocus= {
+    true
+}
+
+div.content {
+  margin-left: 280px;
+  line-height: 1.5em;
+  padding-right: 30px;
+}
+
+
+div.cv {
+  margin-left: 280px;
+  position: absolute;
+  width: 60%;
+  max-width: 650px;
+  padding-top: 20px;
+  line-height: 1.3em;
+  z-index: 99999;
+}
+
+div.nav {
+  color: #e3e3e3;
+  position: fixed;
+padding: 8px;
+  font-size: 45px;
+  line-height: 1.1em;
+  z-index: 10;
+  width: 220px;
+
+  display: inline-block;
+}
+
+
+div.active {
+color: black;
+}
+
+/* a.bio {
+  background-color: none;
+  color: #e3e3e3;
+} */
+
+/* a.bio:hover {
+  background-color: none;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+} */
+
+div.a {
+    /* transform: rotate(270deg); */
+  position: fixed;
+top: 0;
+left: 0;
+width: 120px;
+font-size: 45px;
+letter-spacing: 1px;
+padding: 4px;
+
+}
+div.aa {
+    /* transform: rotate(270deg); */
+  position: fixed;
+top: 0;
+left: 0;
+width: 120px;
+background-color: yellow;
+
+}
+div.b {
+  position: fixed;
+top: 0;
+right: 0;
+width: 120px;
+text-align: right;
+font-size: 45px;
+letter-spacing: 1px;
+padding: 4px;
+}
+div.bb {
+  position: fixed;
+top: 0;
+right: 0;
+width: 120px;
+text-align: right;
+background-color: yellow;
+}
+div.c {
+  position: fixed;
+bottom: 0;
+left: 0;
+width: 420px;
+}
+div.cc {
+  position: fixed;
+bottom: 0;
+left: 0;
+width: 120px;
+background-color: yellow;
+}
+div.d {
+  position: fixed;
+bottom: 0;
+right: 0;
+width: 120px;
+text-align: right;
+}
+div.dd {
+  position: fixed;
+bottom: 0;
+right: 0;
+width: 120px;
+text-align: right;
+background-color: yellow;
+}
+div.e {
+  background-color: black;
+  height: 90%;
+  width: 90%;
+}
+/* unvisited link */
+a.link-nav {
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+/* visited link */
+a.link-nav:visited {
+  color: #e3e3e3;
+}
+
+/* mouse over link */
+a.link-nav:hover {
+  color: black;
+  /* background-color: yellow; */
+  /* text-decoration: overline;
+  text-decoration: underline; */
+}
+
+/* selected link */
+a.link-nav:active {
+  color: #000000;
+
+}
+
+div.current {
+  color: black;
+}
+
+
+div.center {
+color: white;
+margin: auto;
+width: 60%;
+/* border: 3px solid #73AD21; */
+padding: 10px;
+z-index: 10;
+}
+.center p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: black;
+  line-height: 150%;
+  hanging-punctuation: first;
+}
+
+div.y {
+position: fixed;
+margin: auto;
+width: 600px;
+height: 1000px;
+top: 50%;
+left: 50%;
+margin-left: -300px; /* margin is -0.5 * dimension */
+margin-top: -300px;
+z-index: 100;
+font-size:13vw;
+color: #f0f0f0;
+line-height: .95em;
+}
+
+div.z {
+color: black;
+margin: auto;
+max-width: 800px;
+padding: 10px;
+z-index: 10;
+font-size:89vw;
+line-height: .85em;
+overflow: visible;
+}
